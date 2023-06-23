@@ -1,0 +1,67 @@
+.logo-img{
+
+    border-radius: 50%;
+    box-shadow: 0 0 5px black;
+}
+.bg-teal{
+
+    background-color: #27ddde !important;
+}
+.text-teal{
+
+    color:#27ddde !important;
+}
+
+/* landing page section */
+
+.landing-section
+{
+
+    background: white url(./images/pexels-photo-6476584.jpeg) no-repeat scroll center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+.landing-wrapper{
+
+    background-color: rgba(0, 0 ,0, 0.5);
+    height: 100%;
+}
+.landing-wrapper h1{
+
+    font-size: 60px;
+}
+.landing-wrapper p{
+
+    font-size: 18px;
+}
+.read{
+
+    padding: 5px;
+    background-color: #27ddde;
+}
+.read:hover{
+
+    scale: 130%;
+}
+
+/* gallery-section */
+
+.gallery-img{
+
+    border-radius: 50px;
+    border:#27ddde 5px solid !important;
+    box-shadow: 0 0 10px black;
+    transition: all, 0.5s;
+    cursor: pointer;
+}
+.gallery-img:hover{
+    transform:scale(105%);
+}
+
+.mycontainer img{
+    height: 18rem;
+    width: 22rem;
+
+}
+
